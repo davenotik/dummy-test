@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload. Cool. Rad.
           </p>
           <a
             className="App-link"
@@ -17,10 +17,19 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+
           </a>
+          <Button/>
         </header>
       </div>
+    );
+  }
+}
+
+class Button extends Component {
+  render() {
+    return (
+      <a href="http://abc.me" className="Button">A button</a>
     );
   }
 }

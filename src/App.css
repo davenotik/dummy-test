@@ -30,3 +30,19 @@
     transform: rotate(360deg);
   }
 }
+
+.Button {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  border: solid 1px green;
+  border-radius: 2px;
+  color: red;
+  text-decoration: none;
+  transition: border-color 2s;
+}
+
+.Button:hover {
+  border-color: orange;
+  transition: border-color 2s;
+}
